@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/buggaarde/layout-optimizer/text"
+	"github.com/buggaarde/The-Sherlock-Layout/text"
 )
 
 func AnalyseLayout(l Layout, f text.Frequencies) {

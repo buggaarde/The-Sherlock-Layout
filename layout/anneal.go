@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/buggaarde/layout-optimizer/text"
+	"github.com/buggaarde/The-Sherlock-Layout/text"
 	"github.com/mitchellh/copystructure"
 )
 
@@ -69,7 +69,7 @@ func Anneal(
 			fmt.Printf("New best score is %.2f\n", bestScore)
 			fmt.Println()
 			Print(bestLayout)
-			layoutName := fmt.Sprintf("layouts5050/%d.toml", int(bestScore))
+			layoutName := fmt.Sprintf("intermediate_layouts/%d.toml", int(bestScore))
 			Write(bestLayout, layoutName)
 			stepsNoBest = 0
 		}

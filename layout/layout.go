@@ -5,7 +5,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/buggaarde/layout-optimizer/text"
+	"github.com/buggaarde/The-Sherlock-Layout/text"
 )
 
 type Layout struct {
