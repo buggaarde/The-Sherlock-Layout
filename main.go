@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/buggaarde/layout-optimizer/layout"
-	"github.com/buggaarde/layout-optimizer/text"
+	"github.com/buggaarde/The-Sherlock-Layout/layout"
+	"github.com/buggaarde/The-Sherlock-Layout/text"
 )
 
 func main() {
